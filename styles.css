@@ -8,6 +8,7 @@
 }
 body {
     background-color: #D5E1EF;
+    height: 100vh;
 }
 
 h1 {
@@ -26,14 +27,15 @@ p {
     line-height: 140%;
     letter-spacing: 0.2px;
 }
+
 .center-screen {
     display: flex;
     flex-direction: column;
-     /* min-width: .flex-card.width+.flex-card.padding; */
+    justify-content: center;
     align-items: center;
-    /* padding: 5%; */
     background-color: #D5E1EF;
     margin: 0px 15px 0px 15px;
+    height: 100%;
 }
 .flex-card {
     display: flex;
